@@ -1,4 +1,4 @@
-package com.soaic.designpattern.CommandPattern;
+package com.soaic.designpattern.commandpattern;
 
 public class StereoOnWithCDCommand implements Command {
     private Stereo stereo;

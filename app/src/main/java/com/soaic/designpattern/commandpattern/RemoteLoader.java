@@ -1,4 +1,4 @@
-package com.soaic.designpattern.CommandPattern;
+package com.soaic.designpattern.commandpattern;
 
 public class RemoteLoader {
     public static void main(String[] args){
