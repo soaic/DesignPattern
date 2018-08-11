@@ -9,9 +9,7 @@ public abstract class Pizza {
     String sauce;
     ArrayList toppings = new ArrayList();
 
-    void prepare(){
-
-    }
+    abstract void prepare();
 
     void cut(){
 
@@ -27,6 +25,10 @@ public abstract class Pizza {
 
     public String getName(){
         return name;
+    }
+
+    public void setName(String name){
+        this.name = name;
     }
 }
 

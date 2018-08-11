@@ -9,6 +9,11 @@ public class ChicagoStyleCheesePizza extends Pizza {
         toppings.add("Shredded Mozzarella Cheese");
     }
 
+    @Override
+    void prepare() {
+
+    }
+
     void cut(){
         System.out.println("Cutting the pizza into square slices");
     }
